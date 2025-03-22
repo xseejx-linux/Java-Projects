@@ -1,1 +1,45 @@
-.vscode
+# Ignore all class files
+*.class
+
+# Ignore all jar files
+*.jar
+
+# Ignore all log files
+*.log
+
+# Ignore all compiled Java files
+*.class
+
+# Ignore all package files
+*.war
+*.ear
+
+# Ignore all IDE specific files
+/.idea/
+/*.iml
+/.project
+/.classpath
+/.settings/
+
+# Ignore all build directories
+/build/
+/target/
+
+# Ignore Maven specific files
+/.mvn/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/logs/
+/release.properties
+
+# Ignore Gradle specific files
+/.gradle/
+/build/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
