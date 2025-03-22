@@ -134,7 +134,6 @@ public class createMap extends JComponent {
                     }
                     
                     default:
-                        // If it's some other symbol, do nothing or handle it here
                         break;
                 }
             }
@@ -160,8 +159,6 @@ public class createMap extends JComponent {
             g2d.fill(obj.getShape());
         }
     }
-
-    // Provide a getter if you want to access mapObjects from outside
     public ArrayList<MapObject> getMapObjects() {
         return mapObjects;
     }
